@@ -1,0 +1,20 @@
+{
+  "name": "starter",
+  "version": "0.0.0",
+  "description": "A starter project for SakuraAPI",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakuraapi/starter.git"
+  },
+  "author": "Jean-Pierre E. Poveda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sakuraapi/starter/issues"
+  },
+  "homepage": "https://github.com/sakuraapi/starter#readme"
+}
