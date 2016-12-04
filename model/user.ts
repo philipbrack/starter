@@ -5,7 +5,7 @@ import {
 import * as express from 'express';
 
 @Routable({
-  baseUrl: 'api'
+  baseUrl: 'user'
 })
 class User {
   presidents = [{
@@ -20,7 +20,6 @@ class User {
   }
 
   @Route({
-    path: 'user',
     method: 'get'
   })
   getUsers(req: express.Request, res: express.Response) {
@@ -28,7 +27,7 @@ class User {
   }
 
   @Route({
-    path: 'user/:id',
+    path: '/:id',
     method: 'get'
   })
   getUser(req: express.Request, res: express.Response) {

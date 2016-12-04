@@ -7,6 +7,7 @@ import * as bodyParser   from 'body-parser'
   let sapi = SakuraApi.instance;
 
   sapi.addMiddleware(bodyParser.json());
+  sapi.baseUri = '/api';
 
   sapi
     .listen()
